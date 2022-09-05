@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: cambria;
+    box-sizing: border-box;
+}
+.container-profile{
+    margin-top: 20px;
+}
+.container-profile img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid gray;
+    margin-left: 22%;
+}
+.container-profile h2{
+    text-align: center;
+    color: white;
+    user-select: none;
+    margin-top: 20px;
+}
+.header-name{
+    color: green;
+    user-select: noneS;
+}
+.header-graphic{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 20%;
+}
+.header-graphic h6{
+    color: white;
+    text-align: center;
+    margin: 20px;
+   
+}
+.info{
+    margin-top: 20%;
+    margin-bottom: 20%;
+     border-top: 1px solid white;
+     border-bottom: 1px solid white;
+}
+.info h6{
+    color: white;
+    margin: 10px;
+}
+
+.icon-name{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+.icon-box{
+    position: relative;
+    right: 40px;
+}
+.icon-name i,
+.social-box i{
+    padding-right: 20px;
+    font-size: 1.7rem;
+}
+.para-1{
+    position: relative;
+    left: 20px;
+}
+.para-2{
+    position: relative;
+    left: 40px;
+}
+.social-box{
+    text-align: center;
+    position: relative;
+    right: 40px;
+    font-size: 1rem;
+    color: white;
+}
+/* col-md-7 */
+.profile,
+.experience{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profile i{
+  font-size: 1.7rem;
+  color: black;
+}
+.profile .portfolio{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+    margin-left: 10px;
+}
+.about{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about a{
+    text-decoration: none;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    border-radius: 10px;
+}
+/* .about-name{
+    margin-top: 30px;
+} */
+.about-name i{
+    font-size: 1.5rem;   
+}
+.about-title{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.date{
+    font-weight: bold;
+}
+.icons i{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.icons .photo{
+    font-weight: bold;
+    margin-left: 10px;
+}
+@media (max-width:768px) {
+    .container-profile{
+        width: 100%;
+        background-color: black;
+    }
+}
